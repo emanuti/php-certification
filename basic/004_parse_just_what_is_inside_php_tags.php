@@ -6,10 +6,10 @@ function with spaces works because() {
 <?= PHP_EOL ?>
 
 <?php
-    $here_we_can_to_put_php_code = "Here, we are inside PHP. It's work's because here we have a php code";
+    $here_we_can_put_php_code = "Here, we are inside PHP. It's work's because here we have a php code";
 
     // the last thing before close tag 
-    echo $here_we_can_to_put_php_code
+    echo $here_we_can_put_php_code
 ?>
 
 
@@ -20,7 +20,7 @@ $variable with spaces works = "because here isn't a php code";
 
 <?= PHP_EOL ?>
 
-<?= $here_we_can_to_put_php_code ?>
+<?= $here_we_can_put_php_code ?>
 
 
 <? echo 'deprecated' ?>
