@@ -4,7 +4,7 @@ echo 'Here we have a Parse error because we must terminate with ;'
 
 /*
 Note that the parse error point is on line 20 because this line 
-starts with echo statement rather than start with ",' or ';' for separate
+starts with echo statement rather than start with ',' or ';' for separate
 of line 3 echo statement
 
 The Parse error explain that echo accept/expect after one string, another one separeted 
