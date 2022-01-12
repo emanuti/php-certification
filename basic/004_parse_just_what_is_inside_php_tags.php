@@ -2,7 +2,7 @@ function with spaces works because() {
     return "it isn't a php code";
 }
 
-<?php // atalho para echo <?php echo PHP_EOL ? > ?>
+<?php // echo shortcut bellow <?php echo PHP_EOL ? > ?>
 <?= PHP_EOL ?>
 
 <?php
