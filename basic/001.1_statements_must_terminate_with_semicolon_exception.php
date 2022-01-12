@@ -3,11 +3,11 @@
 echo 'Here we have a Parse error because we must terminate with ;'
 
 /*
-Note that the parse error find line 20, but the error was on line 3
-because the parser is trying to parse echo 'Here we have a...' echo 'It won\'t...'
-and to separete the instructions on php we need to put ; 
+Note that the parse error point is on line 20 because this line 
+starts with echo statement rather than start with ; for separate
+of line 3 echo statement
 
-The Paerse error explain that echo accept/expect after one string, another one separeted 
+The Parse error explain that echo accept/expect after one string, another one separeted 
 by , or you need to specify the end of instruction with ;
 
 Note: 
